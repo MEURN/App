@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background: #f8e49f;
+}
+
+header{
+    display: flex;
+    background-color: rgb(245, 194, 39);
+    border-bottom: solid;
+    border-color: rgb(199, 150, 4);
+    padding: 20px;
+    border-radius:100px;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.contenedor-titulo a{
+   color: black;
+   text-decoration: none;
+}
+
+/* Botones*/
+
+.boton{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+    font-style: normal;
+    padding: 6px;
+}
+
+#crear{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 218, 36);
+    margin: 10px;   
+    border-radius: 100px;
+    border-style: none;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    margin-right: -200px;
+    margin-left: 20px;
+    height: 40px;
+    width: 40px;
+    right: 10px;
+}
+
+
+#crear:active {
+    transform: scale(0.95);   /* Se achica un poco */
+}
+
+
+
+#p-buttons{
+    display: flex;
+    margin-left: 350px;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    font-family: "Marcellus", serif;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    padding-top: 20px;
+    margin-left: 500px;
+}
+
+/* Titulo */
+
+#p-t{
+   margin-top: 10px;
+   font-family: "Instrument Serif", serif;
+   letter-spacing: 2px;
+   text-decoration: underline;
+   margin-left: 100px;
+}
+
+#AB{
+    background-color: rgb(231, 218, 36);
+    margin-top: 10px;
+    border-radius: 100px;
+    border-style: none;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#AB:active {
+    transform: scale(0.95);   /* Se achica un poco */
+}
+
+#AB img{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+#boton3{
+    padding: 6px;
+}
+
+/*SECTIONS*/
+
+/*Notificaciones - Menu lateral*/
+
+#CN{
+    background-color: rgb(245, 194, 39);
+    height: 450px;
+    width: 250px;
+    border: solid;
+    border-radius: 20px;
+    margin-left: -15px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 1px rgb(199, 150, 4);
+    border-color: rgb(199, 150, 4);
+    display: flex;
+    justify-content: space-around;
+}
+
+#CN img{
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+}
+
+#Noti{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: "Marcellus", serif;
+    letter-spacing: 1.5px;
+    
+}
+
+#SN{
+    box-shadow: 20%;
+}
+
+#buton2{
+    background-color: rgb(231, 218, 36);
+    margin: 10px;   
+    margin-top: 10px;
+    margin-right: -10px;
+    border-radius: 100px;
+    border-style: none;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+#buton2:active {
+    transform: scale(0.95);   /* Se achica un poco */
+}
+

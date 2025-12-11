@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+
+body {
+    background-color: #f8e49f;
+}
+
+
+
+
+#padre{
+   display: flex;
+   justify-content: center;
+   position: relative;
+   top: 100px;
+   left: 300px;
+   width: 500px;
+}
+
+#P-buttons{
+    height: 150px;
+    width: 500px;
+    margin-left: 900px;
+}
+
+#buttons{
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+#buttons button{
+    background-color: white;
+    border: none;
+    border-radius: 90%;
+    height: 100px;
+    width: 100px;
+    box-shadow: 5px 1px 30px rgb(0, 0, 0);
+}
+#P-buttons img{
+    width: 50px;
+    height: 50px;
+}
+
+button {
+    transition: transform 0.1s;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+#upload-v{
+    background-color: aquamarine;
+}
+
+#el-text{
+    height: 30px;
+    width: 400px;
+    position: relative;
+    top: 60px;
+    left: 200px;
+    font-size: 60px;
+    font-family: "Amarna", sans-serif;
+    line-height: 80px;
+}
+
+#el-text2{
+    display: flex;
+    gap: 80px;
+    margin-left: 25px;
+    margin-top: 10px;
+    font-family: "Marcellus", serif;
+}
+
+.arrow{
+    font-family: "Marcellus", serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    display: flex;
+    width: 200px;
+    height: 90px;
+    justify-content: left;
+    margin: 50px;
+}
+

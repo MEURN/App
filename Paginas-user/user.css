@@ -1,0 +1,288 @@
+
+
+body {
+    background: #f8e49f;
+    font-family: "Marcellus", serif;
+    
+}
+
+.contenedor-titulo a{
+   color: black;
+   text-decoration: none;
+}
+/* CSS parte superior */
+
+.up{
+    margin: 20px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#up1{
+    background-color: rgb(245, 194, 39);
+    padding: 20px;
+    box-shadow: 5px 5px 1px rgb(199, 150, 4);
+    border-radius: 10%;
+    border: solid;
+    border-color: rgb(199, 150, 4);
+    margin-left: px;
+}
+
+.imagen{
+    order: -1;
+    margin-top: 10px;
+}
+
+.imagen img{
+    border-radius: 100%;
+}
+
+.titulo{
+    margin-left: 60px;
+}
+
+.followers{
+    display: flex;
+}
+
+.Publi{
+   display: flex;
+}
+
+#up2{
+    display: flex;
+    font-size: 15px;
+    background-color: rgb(245, 194, 39);
+    width: 1000px;
+    height: 20px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 5px 5px 1px rgb(199, 150, 4);
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.nf{
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+#C{
+    margin-left: 10px;
+    height: 20px;
+    width: 70px;
+}
+
+.card-info{
+    margin-left: 60px;
+    margin-top: 50px;
+    background-color: rgb(245, 194, 39);
+    width: 260px;
+    height: 400px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 1px rgb(199, 150, 4);
+    border: solid;
+    border-color: rgb(199, 150, 4);
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.card-info h3{
+  margin-top: 20px;
+}
+
+.card-publi{
+    margin-left: 600px;
+    margin-top: -650px;
+    width: 700px;
+    height: 700px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-publi h2{
+  margin-top: 20px;
+  background: rgb(245, 194, 39);
+  height: 35px;
+  width: 250px;
+  text-align: center;
+  padding-top: 10px;
+  border: solid;
+  border-color: rgb(199, 150, 4);
+  border-radius: 25px;
+  font-size: 20px;
+}
+
+#icon-edit{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    position: relative;
+    left: 460px;
+    top: 80px;
+    justify-content: center;
+    gap: 20px;
+}
+
+#icon-edit img{
+   width: 50px;
+   height: 20px;
+   margin-top: 4px;
+}
+
+#icon-button{
+    border: none;
+    height: 50px;
+    border-radius: 100%;
+    background-color: rgb(231, 218, 36);
+}
+
+#follow{
+    border: none;
+    height: 40px;
+    width: 90px;
+    border-radius: 15px;
+    background-color: rgb(231, 218, 36);
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+#icon-button{
+    border: none;
+    height: 40px;
+    width: 90px;
+    border-radius: 15px;
+    background-color: rgb(231, 218, 36);
+    margin-top: 10px;
+}
+
+.parent {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 6; }
+.div2 { grid-area: 2 / 1 / 6 / 2; }
+.div3 { grid-area: 1 / 1 / 2 / 2; }
+.div4 { grid-area: 2 / 2 / 6 / 6; }
+
+/* Header */
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background: #f8e49f;
+}
+
+header{
+    display: flex;
+    background-color: rgb(245, 194, 39);
+    border-bottom: solid;
+    border-color: rgb(199, 150, 4);
+    padding: 20px;
+    border-radius:100px;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.contenedor-titulo a{
+   color: black;
+   text-decoration: none;
+}
+
+/* Botones*/
+.boton{
+    padding: 6px;
+}
+#crear{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 218, 36);
+    margin: 10px;   
+    border-radius: 100px;
+    border-style: none;
+    cursor: pointer;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    margin-right: -200px;
+    margin-left: 20px;
+    height: 40px;
+    width: 40px;
+    right: 10px;
+}
+
+#crear a{
+    color: black;
+    font-style: normal;
+}
+
+
+#p-buttons{
+    display: flex;
+    margin-left: 350px;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    font-family: "Marcellus", serif;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    padding-top: 20px;
+    margin-left: 500px;
+}
+
+/* Titulo */
+
+#p-t{
+   margin-top: 10px;
+   font-family: "Instrument Serif", serif;
+   letter-spacing: 2px;
+   text-decoration: underline;
+   margin-left: 100px;
+}
+.boton3{
+    padding: 6px;
+}
+#AB{
+    background-color: rgb(231, 218, 36);
+    margin-top: 10px;
+    border-radius: 100px;
+    border-style: none;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#AB:active {
+    transform: scale(0.95);   /* Se achica un poco */
+}
+
+#AB img{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
